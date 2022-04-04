@@ -2,3 +2,19 @@
     padding:50px;
     margin: 0 200px;
 }
+
+
+/* //=============== */
+
+@media screen and (max-width:1000px) {
+    .blog-padding{
+        padding:5px;
+    }
+   
+  }
+@media screen and (max-width:875px) {
+    .blog-padding{
+        padding:5px;
+    }
+  
+  }

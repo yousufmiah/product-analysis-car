@@ -3,7 +3,7 @@ import "./Blogs.css";
 
 const Blogs = () => {
   return (
-    <div className=" text-justify blog-padding">
+    <div className=" container text-justify blog-padding">
       <h2 className="text-center my-5">Blog page</h2>
       <p>
         <strong>Context API: </strong> Context API is a most import part for
