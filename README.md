@@ -2,16 +2,17 @@
 
 This this live site: [Car App](https://car-app-yousuf.netlify.app/).
 
-About Out Web Site
-Thi is a Cad web site which is very important for car purchase.
+About Our Web Site:
 
-Home page: some text by description about car and picture and live demo can watch to select for car and some reviews what are our customer comments.
+- Thi is a Cad web site which is very important for car purchase.
 
-Reviews page: There are our all reviews of valuable customers.
+- Home page: some text by description about car and picture and live demo can watch to select for car and some reviews what are our customer comments.
 
-Dashboard page: we can see our situation at present by chart in this page.
+- Reviews page: There are our all reviews of valuable customers.
 
-Blogs Page: there discuss some semantic element for layout of website.
+- Dashboard page: we can see our situation at present by chart in this page.
 
-About Page: Here we publish some text for about whole website.
-Copyrights: re
+- Blogs Page: there discuss some semantic element for layout of website.
+
+- About Page: Here we publish some text for about whole website.
+  Copyrights: re
