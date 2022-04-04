@@ -9,23 +9,30 @@ const About = () => {
         <li>Thi is a Cad web site which is very important for car purchase.</li>
         <br />
         <li>
-          Home page: some text by description about car and picture and live
-          demo can watch to select for car and some reviews what are our
-          customer comments.
-        </li>
-        <br />
-        <li>Reviews page: There are our all reviews of valuable customers.</li>
-        <br />
-        <li>
-          Dashboard page: we can see our situation at present by chart in this
-          page.
+          <strong>Home page: </strong> some text by description about car and
+          picture and live demo can watch to select for car and some reviews
+          what are our customer comments.
         </li>
         <br />
         <li>
-          Blogs Page: there discuss some semantic element for layout of website.
+          <strong>Reviews page: </strong> There are our all reviews of valuable
+          customers.
         </li>
         <br />
-        <li>About Page: Here we publish some text for about whole website.</li>
+        <li>
+          <strong>Dashboard page: </strong> we can see our situation at present
+          by chart in this page.
+        </li>
+        <br />
+        <li>
+          <strong>Blogs Page: </strong> there discuss some semantic element for
+          layout of website.
+        </li>
+        <br />
+        <li>
+          <strong>About Page: </strong> Here we publish some text for about
+          whole website.
+        </li>
       </ul>
     </div>
   );
