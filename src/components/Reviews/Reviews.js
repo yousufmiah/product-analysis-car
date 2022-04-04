@@ -8,11 +8,13 @@ const Reviews = () => {
   // console.log(reviews);
 
   return (
-    <div className=" all-reviews text-center">
+    <div className=" container text-center all-items">
       <h2>All Reviews</h2>
-      {reviews.map((item) => (
-        <Item key={item.id} item={item}></Item>
-      ))}
+      <div className="all-item">
+        {reviews.map((item) => (
+          <Item key={item.id} item={item}></Item>
+        ))}
+      </div>
     </div>
   );
 };

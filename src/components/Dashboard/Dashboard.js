@@ -1,10 +1,15 @@
 import React from "react";
 import "./Dashboard.css";
+import LChart from "../LChart/LChart";
+import AChart from "../AChart/AChart";
 
 const Dashboard = () => {
   return (
-    <div className="text-center">
-      <h2>Dashboard page</h2>
+    <div className="mt-5">
+      <div className="container chart d-flex">
+        <LChart></LChart>
+        <AChart></AChart>
+      </div>
     </div>
   );
 };

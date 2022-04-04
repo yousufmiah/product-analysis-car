@@ -1,9 +1,17 @@
-.reviews{
-    text-align: center;
-    display: inline;
+.all-items{
+    display: grid;
+    grid-template-columns: 3fr;
+    margin-top: 50px;
+    
+   
 }
 
+.all-item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 .all-reviews h2{
     margin: 35px 0;
     font-weight: 800;
 }
+

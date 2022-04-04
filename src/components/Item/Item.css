@@ -1,0 +1,11 @@
+
+.item-img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 20px;
+}
+.item-img img{
+    width: 250px;
+    height: 250px;
+    
+}
