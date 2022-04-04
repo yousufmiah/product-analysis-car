@@ -15,4 +15,3 @@ About Our Web Site:
 - Blogs Page: there discuss some semantic element for layout of website.
 
 - About Page: Here we publish some text for about whole website.
-  Copyrights: re
