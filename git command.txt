@@ -2,8 +2,7 @@
 github link: https://github.com/programming-hero-web-course-4/product-analysis-website-yousufmiah
 ===========
 
-https://github.com/programming-hero-web-course-4/product-analysis-website-yousufmiah
-=====================
+
 
 live link: https://car-app-yousuf.netlify.app/
 ================
