@@ -3,7 +3,7 @@ import "./Blogs.css";
 
 const Blogs = () => {
   return (
-    <div>
+    <div className="text-center">
       <h2>Blog page</h2>
     </div>
   );

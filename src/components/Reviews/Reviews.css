@@ -1,0 +1,9 @@
+.reviews{
+    text-align: center;
+    display: inline;
+}
+
+.all-reviews h2{
+    margin: 35px 0;
+    font-weight: 800;
+}
