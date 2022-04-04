@@ -55,7 +55,7 @@ const LChart = () => {
     <ResponsiveContainer width="100%" height="100%">
       <div className="container">
         <div>
-          <h2>Invest vs Revenue vs Sell</h2>
+          <h4 className="mb-5">Investment vs Sell vs Revenue</h4>
         </div>
         <LineChart
           width={500}

@@ -22,8 +22,8 @@ const Home = () => {
   // console.log(reviews);
   return (
     <div>
-      <div className=" container home-contain">
-        <div className="text-contain">
+      <div className=" container home-container">
+        <div className="text-container">
           <h1>Choose Your Best Car</h1>
           <p>
             On behalf of Happy New Year. We are going to lunching a new car show
@@ -32,28 +32,35 @@ const Home = () => {
             environment. Thanks and best of Luck.
           </p>
           <div>
-            <button className="display-inline btn btn-primary py-3 px-4">
-              Live Demo
-            </button>
+            <a
+              target="blank"
+              href="https://www.youtube.com/watch?v=cPV6DIzpFtQ"
+            >
+              <button className="display-inline btn btn-primary py-3 px-4">
+                Live Demo
+              </button>
+            </a>
           </div>
         </div>
-        <div className="image-contain align-item-center">
+        <div>
           <img className="mt-4" src={carImage} alt="" />
         </div>
       </div>
       <div className="reviews">
         <h2>Customer Reviews: {review.length}</h2>
-        {review.map((item) => (
-          <Review key={item.id} item={item}></Review>
-        ))}
-      </div>
-      <div className=" all-reviews-btn text-center py-5">
-        <button
-          onClick={handleShowAllReviews}
-          className="btn btn-primary px-5 py-2"
-        >
-          See All Reivews
-        </button>
+        <div className="d-flex">
+          {review.map((item) => (
+            <Review key={item.id} item={item}></Review>
+          ))}
+        </div>
+        <div className=" all-reviews-btn text-center py-5">
+          <button
+            onClick={handleShowAllReviews}
+            className="btn btn-primary px-5 py-2"
+          >
+            See All Reivews
+          </button>
+        </div>
       </div>
     </div>
   );
