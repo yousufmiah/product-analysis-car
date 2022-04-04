@@ -5,8 +5,8 @@ import AChart from "../AChart/AChart";
 
 const Dashboard = () => {
   return (
-    <div className="mt-5">
-      <div className="container chart-container d-flex">
+    <div className="container mt-5 chart-container">
+      <div className="chart">
         <LChart></LChart>
         <AChart></AChart>
       </div>

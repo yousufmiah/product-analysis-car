@@ -1,3 +1,38 @@
 .chart-container{
+    display: grid;
+    grid-template-columns: 2fr;
     margin: 100px 0;
 }
+.chart{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)
+}
+
+
+/* //================== */
+
+
+@media screen and (max-width:1000px) {
+ .chart-container{
+    display: grid;
+    grid-template-columns: 1fr;
+ }
+.chart{
+        display: grid;
+        grid-template-columns: 1fr)
+ }
+  }
+
+
+  
+@media screen and (max-width:875px) {
+    .chart-container{
+        display: grid;
+        grid-template-columns: 1fr;
+     }
+     .chart{
+        display: grid;
+        grid-template-columns: 1fr)
+    }
+
+  }
