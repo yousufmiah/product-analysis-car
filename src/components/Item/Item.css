@@ -1,8 +1,8 @@
 
 .item-img{
     display: grid;
-    grid-template-columns: repeat(3fr, 1fr);
-    margin: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 25px;
     justify-content: center;
 }
 .item-img img{
