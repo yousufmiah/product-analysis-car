@@ -1,7 +1,6 @@
-import React from "react";
 import "./Home.css";
 import carImage from "../../images/car.png";
-import { Card, Col, Row } from "react-bootstrap";
+
 import useReviews from "../../hooks/useReviews";
 import Review from "../Review/Review";
 import { Link, useNavigate } from "react-router-dom";

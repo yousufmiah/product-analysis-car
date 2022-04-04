@@ -1,12 +1,17 @@
-import React from "react";
+import { useContext } from "react";
+import { CarContext } from "../Header/Header";
 import "./About.css";
 
 const About = () => {
+  const car = useContext(CarContext);
+  // console.log(car);
+
   return (
     <div className="about-page">
+      <h3> It is here by Context Api: {car}</h3> <small></small>
       <h2 className="pb-3">About Our Web Site:</h2>
       <ul>
-        <li>Thi is a Cad web site which is very important for car purchase.</li>
+        <li>Thi is a Car web site which is very important for car purchase.</li>
         <br />
         <li>
           <strong>Home page: </strong> some text by description about car and
