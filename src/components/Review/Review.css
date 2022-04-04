@@ -1,0 +1,19 @@
+.review-img img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.review-img h4{
+    margin-right:  10px;
+}
+.review-img p{
+    margin-right:  10px;
+}
+.review-item{
+    text-align: center;
+}
+

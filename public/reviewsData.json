@@ -1,0 +1,44 @@
+[
+    {
+      "id": "reviews1",
+      "name": "Sabbir",
+      "description": "very nice car",
+      "rating": 5,
+      "img": "https://www.yourtango.com/sites/default/files/image_blog/types-guys-who-stay-single-men.jpg"
+    },
+    {
+      "id": "reviews2",
+      "name": "Khaton",
+      "description": "very nice car",
+      "rating": 5,
+      "img": "https://miro.medium.com/max/1400/1*RbDoKfA7IuH63CSVv_FDlw.jpeg"
+    },
+    {
+      "id": "reviews3",
+      "name": "Rita",
+      "description": "very nice car",
+      "rating": 5,
+      "img": "https://i.insider.com/5536607beab8eae728678680?width=600&format=jpeg&auto=webp"
+    },
+    {
+      "id": "reviews4",
+      "name": "Anjo",
+      "description": "very nice car",
+      "rating": 5,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtRxKeX31U3B6KjUAz8Du2FvErcvQNJ1jeJg&usqp=CAU"
+    },
+    {
+      "id": "reviews5",
+      "name": "Rahim",
+      "description": "very nice car",
+      "rating": 5,
+      "img": "https://images.unsplash.com/photo-1597204081767-4c14a6b7cbec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c2luZ2xlJTIwcGVyc29ufGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+    },
+    {
+      "id": "reviews6",
+      "name": "Sabbir",
+      "description": "very nice car",
+      "rating": 5,
+      "img": "https://assets.entrepreneur.com/content/3x2/2000/20150820205507-single-man-outdoors-happy-bliss.jpeg"
+    }
+  ]
