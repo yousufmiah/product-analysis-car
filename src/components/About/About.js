@@ -7,7 +7,7 @@ const About = () => {
   // console.log(car);
 
   return (
-    <div className="about-page">
+    <div className="container about-page">
       <h3> It is here by Context Api: {car}</h3> <small></small>
       <h2 className="pb-3">About Our Web Site:</h2>
       <ul>

@@ -1,18 +1,4 @@
 .about-page{
-    margin: 100px 50px;
+    margin: 100px;
     }
 
-    /* //=============== */
-
-@media screen and (max-width:1000px) {
-    .about-page{
-        padding:5px;
-    }
-   
-  }
-@media screen and (max-width:875px) {
-    .about-page{
-        padding:5px;
-    }
-  
-  }
