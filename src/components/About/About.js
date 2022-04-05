@@ -8,6 +8,9 @@ const About = () => {
 
   return (
     <div className="container about-page">
+      <div className="text-center mb-3 font-bold">
+        <h3>About Page</h3>
+      </div>
       <h3> It is here by Context Api: {car}</h3> <small></small>
       <h2 className="pb-3">About Our Web Site:</h2>
       <ul>

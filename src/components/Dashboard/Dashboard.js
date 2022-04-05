@@ -7,8 +7,12 @@ const Dashboard = () => {
   return (
     <div className="container mt-5 chart-container">
       <div className="chart">
-        <LChart></LChart>
-        <AChart></AChart>
+        <div className="chart-L">
+          <LChart></LChart>
+        </div>
+        <div className="chart-A">
+          <AChart></AChart>
+        </div>
       </div>
     </div>
   );

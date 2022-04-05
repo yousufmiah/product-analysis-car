@@ -41,13 +41,13 @@ const Home = () => {
             </a>
           </div>
         </div>
-        <div>
-          <img className="mt-4" src={carImage} alt="" />
+        <div className="text-center">
+          <img src={carImage} alt="" />
         </div>
       </div>
       <div className="reviews">
         <h2>Customer Reviews: {review.length}</h2>
-        <div className="d-flex">
+        <div className="customer-review">
           {review.map((item) => (
             <Review key={item.id} item={item}></Review>
           ))}

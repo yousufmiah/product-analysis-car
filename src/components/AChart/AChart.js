@@ -52,13 +52,13 @@ const data = [
 
 const AChart = () => {
   return (
-    <ResponsiveContainer width="100%" height="80%">
-      <div className="container">
+    <ResponsiveContainer width="100%" height="100%">
+      <div className="container ">
         <div>
           <h4 className="mb-5">Investment vs Sell vs Revenue</h4>
         </div>
         <AreaChart
-          width={500}
+          width={400}
           height={300}
           data={data}
           margin={{
